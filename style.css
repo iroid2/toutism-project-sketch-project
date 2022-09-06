@@ -1,0 +1,122 @@
+/* browser reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: black;
+    width: 100vw;
+    height: 200vh;
+    flex-direction: column;
+}
+.btnSectn{
+    color: black;
+    width: 50%;
+    gap: 2rem;
+    margin-right: 9rem;
+    /* background-color: rebeccapurple; */
+    /* margin-top: 2rem; */
+    
+}
+.latest, .hireMe{
+    width: 40%;
+    height: 50px;
+    cursor: pointer;
+}
+.latest{
+    background-color: black;
+    color: white;
+    border: 1.8px solid rgb(243, 6, 184);
+}
+.hireMe{
+    background-color: rgb(243, 6, 184);
+    color: white;
+    border-radius: .3rem;
+}
+.container{
+    width: 80%;
+}
+a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBar{
+    flex-direction: row;
+    gap: 7rem;
+    margin-top: 5rem;
+    width: 100%;
+}
+.heroSectn{
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    /* padding-top: 4rem; */
+    height: 70vh;
+
+}
+.heroSectn p{
+    width: 50%;
+    
+    
+}
+.logo{
+    width: 130px;
+}
+h1{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    width: 60%;
+}
+.rightSectn{
+    gap: 2rem;
+}
+.makeProf{
+    background-color: white;
+    padding-top: 3rem;
+    width: 100%;
+    flex-direction: row;
+    gap: 2rem;
+}
+.makeProf h1{
+    font-size: 3.5rem;
+    width: 50%;
+}
+.rightProf p{
+    width: 50%;
+    background-color: aqua;
+}
+.myWork{
+    color: white;
+    width: 100%;
+    height: 40vh;
+    background-color: red;
+}
+.cards{
+    width: 60%;
+    height: 35%;
+    background-color: green;
+    gap: 5rem;
+}
+.cardDetails{
+    flex-direction: column;
+    width: 30%;
+
+    
+}
+.topMywork{
+    width: 50%;
+    flex-direction: column;
+    margin-left: 15rem;
+}
